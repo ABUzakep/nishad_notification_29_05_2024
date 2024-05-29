@@ -46,6 +46,7 @@ dependencies {
     implementation("androidx.navigation:navigation-fragment:2.5.3")
     implementation("androidx.navigation:navigation-ui:2.5.3")
     implementation("com.google.android.gms:play-services-location:21.2.0")
+    implementation("com.google.firebase:firebase-messaging:24.0.0")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
@@ -59,7 +60,7 @@ dependencies {
     implementation("pl.droidsonroids.gif:android-gif-drawable:1.2.22")
     implementation("com.google.android.gms:play-services-auth:21.1.1")
     implementation("com.google.firebase:firebase-auth")
-
+    implementation ("com.google.firebase:firebase-messaging:24.0.0")
 
     ;
     implementation(kotlin("script-runtime"))
